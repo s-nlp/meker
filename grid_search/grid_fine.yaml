@@ -1,0 +1,24 @@
+entity: foxie
+project: fine_adamw
+program: grid_search_step.py
+method: random
+metric:
+  goal: minimize
+  name: hit10
+parameters:
+  l2:
+    values: [0.0, 0.001, 0.003]
+  how_many:
+    values: [4]
+  n_epoch:
+    values: [55]
+  batch_size:
+    values: [128]
+  lr:
+    values: [0.003, 0.005, 0.08, 0.01, 0.02]
+  scheduler_step:
+    values: [2, 4, 6]
+  scheduler_gamma:
+    values: [0.3, 0.1, 0.5, 0.8]
+  opt_type:
+    values: ['adamw']

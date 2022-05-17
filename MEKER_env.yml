@@ -1,0 +1,4 @@
+name: MEKER_env
+channels:
+  - defaults
+prefix: /root/miniconda3/envs/MEKER_env
