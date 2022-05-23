@@ -19,3 +19,6 @@ To run the big dataset experiment:
 * cd ./big_data
 * specify in gcp_torch.py path to folder with data
 * run python3 gcp_torch.py
+
+
+Wiki5m dataset (entity and relation mapping to tensor indexes, triples and filters) is on https://zenodo.org/deposit/6574179.
